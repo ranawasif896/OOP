@@ -1,0 +1,135 @@
+
+// class student
+// {
+//     private:
+//     int rollno=8;
+//     string naem="fariha";
+//     float cgpa=4.0;
+//     char grade='A';
+//     public:
+//     void display()
+//     {
+//         cout<<"Name:"<<naem<<endl;
+//         cout<<"Roll no:"<<rollno<<endl;
+//         cout<<"CGPS is:"<<cgpa<<endl;
+//         cout<<"Grade is:"<<grade<<endl;
+//     }
+// };
+// int main()
+// {
+//     student fariha;
+//     fariha.display();
+//     return 0;
+// }
+
+
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// class Test
+// {
+//     private:
+//     int n;
+//     public:
+//     void in(){
+//         cout<<"Enter a number";
+//         cin>>n;
+//     }
+//     void out()
+//     {
+//         cout<<"The value of n:"<<n;
+//     }
+// };
+// int main()
+// {
+//     Test number;
+//     number.in();
+//     number.out();
+//     return 0;
+// }
+
+
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+
+// class marks
+// {
+//     private:
+//     int a,b,c;
+//     public:
+//     void in()
+//     {
+//         cout<<"Enter marks in three subjects::";
+//     cin>>a>>b>>c;
+//     }
+//     int sum()
+//     {
+//         return a+b+c;
+//     }
+//     int avg()
+//     {
+//         return (a+b+c)/3;
+//     }
+// };
+// int main()
+// {
+//     marks fariha;
+//     int s;
+//     int x;
+//     fariha.in();
+//     s=fariha.sum();
+//     x=fariha.avg();
+//     cout<<"SUm is::"<<s<<endl;
+//      cout<<"Average is::"<<x<<endl;
+// }
+
+
+
+
+
+
+// #include<iostream>
+// #include<cmath>
+// using namespace std;
+
+
+
+// class radius
+// {
+//     private :
+//     float radius;
+//     public:
+//     void get_radius(float r)
+//     {
+//         radius =r;
+//     }
+//     void area()
+//     {
+//         cout<<"Area of circle::"<<M_PI*radius*radius<<endl;
+//     }
+//     void circum()
+//     {
+//         cout<<"Circumference is::"<<2*M_PI*radius;
+//     }
+// };
+
+// int main(){
+//     radius ra;
+//     float radiuss;
+//     cout<<"ENTer  radius::";
+//     cin>>radiuss;
+//     ra.get_radius(radiuss);
+//     ra.area();
+//     ra.circum();
+//     return 0;
+
+// }
